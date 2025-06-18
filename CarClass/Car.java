@@ -1,11 +1,25 @@
 package CarClass;
 
 public class Car {
-    String make="maruti";
-    String model="800 AC";
+    String make;
+    String model;
 
-    int year=2005;
-    double price=50000;
+    int year;
+    double price;
 
-    boolean isRunning= false;
+    boolean isRunning;
+
+    Car(String make,    String model,    int year,    double price){
+            this.make=make;
+            this.model=model;
+            this.year=year;
+            this.price=price;
+    }
+
+
+    @Override
+    public String toString(){
+
+        return this.make+ " "+this.model+ " "+this.year+" "+this.price;
+    }
 }
