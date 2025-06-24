@@ -3,6 +3,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
+@SuppressWarnings("unused")
 public class DateAndStuff {
     public static void main(String[] args) {
         // LocalTime data = LocalTime.now();
